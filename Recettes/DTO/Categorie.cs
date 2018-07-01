@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Recettes.DTO
 {
-    public class Etape
+    public class Categorie
     {
         public int Id { get; set; }
-        public int Ordre { get; set; }
-        public string Texte { get; set; }
+        public string Nom { get; set; }
+        public string Abbr { get; set; }
     }
 }
