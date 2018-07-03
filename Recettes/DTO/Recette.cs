@@ -11,6 +11,7 @@ namespace Recettes.DTO
         public int Id { get; set; }
         public string Titre { get; set; }
         public int NbPersonnes { get; set; }
-
+        public int TempsPreparation { get; set; }
+        public int TempsCuisson { get; set; } 
     }
 }

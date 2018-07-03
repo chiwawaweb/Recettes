@@ -28,6 +28,8 @@ namespace Recettes.Forms
             recetteEditForm.ShowDialog();
         }
 
+        #region Gestion des événements
+
         private void BtnQuitter_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -37,5 +39,7 @@ namespace Recettes.Forms
         {
             OuvrirNouvelleRecette();
         }
+
+        #endregion
     }
 }
