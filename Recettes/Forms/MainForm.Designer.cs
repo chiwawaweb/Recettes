@@ -41,6 +41,7 @@
             this.BtnNouvelleRecette.TabIndex = 0;
             this.BtnNouvelleRecette.Text = "Nouvelle recette";
             this.BtnNouvelleRecette.UseVisualStyleBackColor = true;
+            this.BtnNouvelleRecette.Click += new System.EventHandler(this.BtnNouvelleRecette_Click);
             // 
             // BtnQuitter
             // 
@@ -51,6 +52,7 @@
             this.BtnQuitter.TabIndex = 1;
             this.BtnQuitter.Text = "Quitter";
             this.BtnQuitter.UseVisualStyleBackColor = true;
+            this.BtnQuitter.Click += new System.EventHandler(this.BtnQuitter_Click);
             // 
             // MainForm
             // 
@@ -60,6 +62,7 @@
             this.Controls.Add(this.BtnQuitter);
             this.Controls.Add(this.BtnNouvelleRecette);
             this.Name = "MainForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Recettes";
             this.ResumeLayout(false);
 

@@ -21,5 +21,21 @@ namespace Recettes.Forms
 
             recetteProvider.CountAll();
         }
+
+        private void OuvrirNouvelleRecette()
+        {
+            RecetteEditForm recetteEditForm = new RecetteEditForm();
+            recetteEditForm.ShowDialog();
+        }
+
+        private void BtnQuitter_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void BtnNouvelleRecette_Click(object sender, EventArgs e)
+        {
+            OuvrirNouvelleRecette();
+        }
     }
 }
